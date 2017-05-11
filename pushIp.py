@@ -21,8 +21,8 @@ if __name__ == '__main__':
 
 	#在特定局域网中才执行
 	if getLocalIp() == "192.168.1.123":
-    #cloudxnsAPI密钥
-    api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+		#cloudxnsAPI密钥
+		api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 		secret_key = 'xxxxxxxxxxxxxxxx'
 		#获取外网IP
 		url="http://members.3322.org/dyndns/getip"
