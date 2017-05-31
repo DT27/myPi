@@ -9,7 +9,7 @@ from threading import Thread
 #此脚本在树莓派上运行正常
 #无需定时执行，仅设置开机启动即可
 #需要先安装Python模块urllib2
-#局域网设备扫描使用arp-scan
+#局域网设备扫描使用arp-scan，安装命令 sudo apt-get install arp-scan
 #由于iOS设备的wifi休眠特性，设备离线时无法立即判定离线
 
 #Domoticz服务器地址及端口号
