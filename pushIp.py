@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
 	#在特定局域网中才执行
 	if getLocalIp() == "192.168.1.123":
-		#cloudxnsAPI密钥
+		#cloudxnsAPI密钥，API申请：https://www.cloudxns.net/AccountManage/apimanage.html
 		api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 		secret_key = 'xxxxxxxxxxxxxxxx'
 		#获取外网IP
